@@ -1,0 +1,207 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "57a6b52b-ff63-44b1-a46a-374cbbe840d7",
+  "Name": "SimpleEmailTemplate",
+  "Actions": [
+    {
+      "NameGuid": "88ee2c82-402f-47af-a6d2-fc04b24a1d86",
+      "Name": "GenerateTemplateAction",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": null,
+      "SmallIconName": null
+    }
+  ],
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "Code": "SimpleEmailTem",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "84adfcbc-b8bf-482d-93d7-075324bd669a",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "b7e65369-813c-48ea-bf63-ff90ed948fa2",
+          "Name": "ControlGroup"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "0572b240-bbeb-4376-8030-15292013d225",
+          "Name": "Control",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "b7e65369-813c-48ea-bf63-ff90ed948fa2",
+          "PropertyGuid": "6c0932ae-b5f5-47d0-8dfe-948c2794d814",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "fb66ed7c-2ca6-4e39-b225-476400348d3a",
+          "Name": "TemplateBody",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.TextEditorToTextBinder",
+          "ParentGuid": "b7e65369-813c-48ea-bf63-ff90ed948fa2",
+          "PropertyGuid": "9a8c3000-6a15-4375-8a70-22bf43df16f4",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "Height",
+              "Value": 450
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "a36fec62-12a4-4ec0-93ad-5c9341bb99a5",
+          "Name": "Document",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "b7e65369-813c-48ea-bf63-ff90ed948fa2",
+          "PropertyGuid": "e8e3b969-4e30-434f-af27-40f4c6d9efcb",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "HandledEvents": [
+    "BeforeSaveServer"
+  ],
+  "IconResourcesKeys": [],
+  "IntegrationServiceName": "EmailTemplatesSimpleEmailTemplate",
+  "OperationsClass": "",
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "6c0932ae-b5f5-47d0-8dfe-948c2794d814",
+      "Name": "Name",
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "9a8c3000-6a15-4375-8a70-22bf43df16f4",
+      "Name": "TemplateBody",
+      "Code": "TemplateBody",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "PreviousPropertyGuid": "e8e3b969-4e30-434f-af27-40f4c6d9efcb"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e8e3b969-4e30-434f-af27-40f4c6d9efcb",
+      "Name": "DocumentRef",
+      "Code": "DocumentRef",
+      "EntityGuid": "58cca102-1e97-4f07-b6ac-fd866a8b7cb1",
+      "FlatListInStandaloneLookup": true,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "6c0932ae-b5f5-47d0-8dfe-948c2794d814"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GenerateTemplate",
+      "Parameters": [
+        {
+          "Name": "simpleEmailTemplate",
+          "ParameterType": "global::study.EmailTemplates.ISimpleEmailTemplate",
+          "ParameterTypeFullName": "study.EmailTemplates.ISimpleEmailTemplate, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "vars",
+          "ParameterType": "System.Collections.Generic.Dictionary<global::System.String, global::System.String>"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String[]",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "SendEmail",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "simpleEmailTemplate",
+          "ParameterType": "global::study.EmailTemplates.ISimpleEmailTemplate",
+          "ParameterTypeFullName": "study.EmailTemplates.ISimpleEmailTemplate, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "body",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "email",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "c420bde7-1adf-47c3-afe6-7658bf1150ea",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "172a4eee-1d41-4b61-847d-d317511ba98e",
+        "Name": "GenerateTemplateAction",
+        "ActionGuid": "88ee2c82-402f-47af-a6d2-fc04b24a1d86",
+        "ButtonSize": "Large",
+        "Index": 51,
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      }
+    ],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "a7fb44bf-9843-4d93-b782-5be9cdad14d3",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "1218c782-df86-4bc7-88ca-de1363f25995",
+  "Name": "EmailTemplates",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "study.EmailTemplates.Client",
+  "ClientBaseAssemblyName": "study.EmailTemplates.ClientBase",
+  "ClientBaseNamespace": "study.EmailTemplates.ClientBase",
+  "ClientNamespace": "study.EmailTemplates.Client",
+  "Code": "EmailTe",
+  "CompanyCode": "study",
+  "Cover": {
+    "NameGuid": "ebf38783-0e92-4130-8b12-eb58b8b7d6db",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "d147ef9f-3d32-4e65-9186-755bfa3c291e",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "1ed9fe08-0080-4ca6-9730-1c0a1a64dd65",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "41bd8018-a4df-453e-bae7-657eea2b2da0",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "57a6b52b-ff63-44b1-a46a-374cbbe840d7"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "study.EmailTemplates",
+  "IsolatedAssemblyName": "study.EmailTemplates.Isolated",
+  "IsolatedNamespace": "study.EmailTemplates.Isolated",
+  "IsVisible": false,
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "study.EmailTemplates",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "study.EmailTemplates.Server",
+  "ServerNamespace": "study.EmailTemplates.Server",
+  "SharedAssemblyName": "study.EmailTemplates.Shared",
+  "SharedNamespace": "study.EmailTemplates.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

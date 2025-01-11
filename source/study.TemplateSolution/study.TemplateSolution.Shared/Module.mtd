@@ -1,0 +1,74 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "41bd8018-a4df-453e-bae7-657eea2b2da0",
+  "Name": "TemplateSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "study.TemplateSolution.Client",
+  "ClientBaseAssemblyName": "study.TemplateSolution.ClientBase",
+  "ClientBaseNamespace": "study.TemplateSolution.ClientBase",
+  "ClientNamespace": "study.TemplateSolution.Client",
+  "Code": "Templat",
+  "CompanyCode": "study",
+  "Cover": {
+    "NameGuid": "a3a2debb-2299-4275-a069-3203e8e8a92e",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "04871c8e-3ce8-4262-ad13-dcc89afe6007",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "ff49d379-138a-46ce-b0fd-b94a129116c9",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+      "MaxVersion": "",
+      "MinVersion": "4.10.48.0"
+    }
+  ],
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "55b4680e-ef78-4848-9dca-a58170fb137b"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "study.TemplateSolution",
+  "IsolatedAssemblyName": "study.TemplateSolution.Isolated",
+  "IsolatedNamespace": "study.TemplateSolution.Isolated",
+  "IsVisible": false,
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "study.TemplateSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "study.TemplateSolution.Server",
+  "ServerNamespace": "study.TemplateSolution.Server",
+  "SharedAssemblyName": "study.TemplateSolution.Shared",
+  "SharedNamespace": "study.TemplateSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

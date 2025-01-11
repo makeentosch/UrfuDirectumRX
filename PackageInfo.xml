@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<DevelopmentPackageInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsDebugPackage>false</IsDebugPackage>
+  <PackageModules>
+    <PackageModuleItem>
+      <Id>41bd8018-a4df-453e-bae7-657eea2b2da0</Id>
+      <Name>study.TemplateSolution</Name>
+      <Version>0.0.1.0</Version>
+      <IncludeAssemblies>true</IncludeAssemblies>
+      <IncludeSources>true</IncludeSources>
+      <IsSolution>true</IsSolution>
+      <IsPreviousLayerModule>false</IsPreviousLayerModule>
+    </PackageModuleItem>
+    <PackageModuleItem>
+      <Id>1218c782-df86-4bc7-88ca-de1363f25995</Id>
+      <SolutionId>41bd8018-a4df-453e-bae7-657eea2b2da0</SolutionId>
+      <Name>study.EmailTemplates</Name>
+      <Version>0.0.1.0</Version>
+      <IncludeAssemblies>true</IncludeAssemblies>
+      <IncludeSources>true</IncludeSources>
+      <IsSolution>false</IsSolution>
+      <IsPreviousLayerModule>false</IsPreviousLayerModule>
+    </PackageModuleItem>
+  </PackageModules>
+</DevelopmentPackageInfo>
